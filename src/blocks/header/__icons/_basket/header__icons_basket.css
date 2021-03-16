@@ -1,0 +1,18 @@
+.header__icons_basket {
+    background-image: url('../../../../images/header__basket.svg');
+    grid-area: basket;
+    margin: 24px auto 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__icons_basket {
+        margin-left: 66px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__icons_basket {
+        margin-top: 45px;
+        margin-left: 24px;
+    }
+}
