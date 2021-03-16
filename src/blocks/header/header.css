@@ -1,0 +1,20 @@
+.header {
+    margin: 0;
+    width: 100%;
+    max-width: inherit;
+    height: 150px;
+    background: linear-gradient(to right, #F2B236, #FF9C1A);
+    justify-content: space-between;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-areas: "basket logo-wrapper menu" "form form form";
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        grid-template-areas: "logo-wrapper form basket menu";
+        justify-content: right;
+        grid-column-gap: 0px;
+        height: 144px;
+    }
+}
