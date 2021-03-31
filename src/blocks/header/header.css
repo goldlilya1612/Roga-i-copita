@@ -12,9 +12,12 @@
 
 @media screen and (min-width: 1024px) {
     .header {
-        grid-template-areas: "logo-wrapper form basket menu";
+        grid-template-areas: "logo-wrapper form basket";
         justify-content: right;
         grid-column-gap: 0;
         height: 144px;
+    }
+    .header__icons_menu {
+        display: none;
     }
 }

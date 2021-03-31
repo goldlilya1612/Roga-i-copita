@@ -6,7 +6,7 @@ html {
 }
 
 .page {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -14,8 +14,9 @@ html {
     min-width: 320px;
     max-width: 2560px;
     position: relative;
+    border: 1px solid red;
 }
 
 * {
-    outline: none !important
+    outline: none !important;
 }

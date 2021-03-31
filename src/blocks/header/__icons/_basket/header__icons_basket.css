@@ -7,6 +7,7 @@
 @media screen and (min-width: 768px) {
     .header__icons_basket {
         margin-left: 66px;
+        margin-right: 35px;
     }
 }
 
