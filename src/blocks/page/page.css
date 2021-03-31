@@ -13,4 +13,9 @@ html {
     -ms-text-size-adjust: 100%;
     min-width: 320px;
     max-width: 2560px;
+    position: relative;
+}
+
+* {
+    outline: none !important
 }
