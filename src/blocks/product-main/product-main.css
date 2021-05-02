@@ -1,9 +1,2 @@
 .product-main {
-    overflow-y: hidden;
-}
-
-@media screen and (min-height: 1500px) {
-    .product-main {
-        height: 100vh;
-    }
 }

@@ -15,7 +15,6 @@ html {
     max-width: 2560px;
     position: relative;
     background-color: #fafaf9;
-    overflow-y: hidden;
 }
 
 * {
