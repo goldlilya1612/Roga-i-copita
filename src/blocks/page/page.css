@@ -14,7 +14,7 @@ html {
     min-width: 320px;
     max-width: 2560px;
     position: relative;
-    border: 1px solid red;
+    background-color: #FAFAF9;
 }
 
 * {

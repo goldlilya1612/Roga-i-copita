@@ -15,5 +15,7 @@
     .header__icons_basket {
         margin-top: 45px;
         margin-left: 24px;
+        width: 37px;
+        height: 37px;
     }
 }

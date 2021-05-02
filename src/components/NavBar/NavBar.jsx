@@ -2,8 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css'
 
-//TODO: элементы навигации
-
 function NavBar() {
     return (
         <nav className="menu">

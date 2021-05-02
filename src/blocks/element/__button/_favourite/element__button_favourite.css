@@ -1,0 +1,11 @@
+.element__button_favourite {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: none;
+    padding: 0;
+    background-color: white;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,14 @@
+.element__button {
+    background: #F2B236;
+    border: none;
+    width: 223px;
+    height: 42px;
+    box-shadow: 0px 3px 7px #FFE9BF;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+}
