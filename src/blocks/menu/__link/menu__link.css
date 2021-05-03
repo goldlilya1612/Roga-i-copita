@@ -1,5 +1,5 @@
 .menu__link {
-    margin: auto 12% auto 0;
+    margin: auto auto;
     display: inline-block;
     color: white;
     font-size: 16px;
@@ -7,6 +7,7 @@
     text-decoration: none;
     cursor: pointer;
     position: relative;
+    text-align: center;
 }
 
 .menu__link:after {
@@ -17,9 +18,9 @@
     width: 0%;
     left: 50%;
     position: absolute;
-    -webkit-transition: width .3s ease-in-out;
-    -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz--transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);

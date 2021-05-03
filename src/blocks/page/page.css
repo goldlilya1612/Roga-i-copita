@@ -6,7 +6,7 @@ html {
 }
 
 .page {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -14,7 +14,7 @@ html {
     min-width: 320px;
     max-width: 2560px;
     position: relative;
-    background-color: #FAFAF9;
+    background-color: #fafaf9;
 }
 
 * {
