@@ -8,6 +8,17 @@ import './App.css';
 
 
 function App() {
+
+  const [isFavourite, setIsFavourite] = React.useState(false);
+
+  const handleFavouriteClick = () => {
+    if (isFavourite == false) {
+      setIsFavourite(true);
+    } else {
+      setIsFavourite(false);
+    }
+  }
+
   return (
     <div className="page">
       <Header />
@@ -16,7 +27,7 @@ function App() {
         <AboutUs />
       </Route>
       <Route exact path="/">
-        <Product />
+        <Product isFavourite={isFavourite} onClick={handleFavouriteClick} />
       </Route> 
 
       {/*<div>Автор иконок: <a href="https://www.flaticon.com/ru/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/ru/" title="Flaticon">www.flaticon.com</a></div>*/}

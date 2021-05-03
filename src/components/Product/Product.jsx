@@ -2,8 +2,9 @@ import React from 'react';
 import './Product.css';
 import help from '../../images/products/1.jpg'
 import favourite from '../../images/favourite.svg'
+import favouriteActive from '../../images/favourite_active.svg'
 
-const Product = () => {
+const Product = ({isFavourite, onClick}) => {
     return (
         <section className="elements"> 
             <section className="element">
@@ -14,7 +15,7 @@ const Product = () => {
                 <div className="element__buttons">
                     <button className="element__button element__button_basket">добавить в корзину</button>
                     <div className="element__button-wrapper">
-                        <img className="element__favourite" src={favourite}/>
+                        <img className="element__favourite" src={favourite} onClick={onClick}/>
                         <button className="element__button_favourite"></button>
                     </div>
                 </div>    
