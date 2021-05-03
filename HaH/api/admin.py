@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Products
+from .models import Products, Category
 
 @admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
@@ -9,4 +9,11 @@ class ProductsAdmin(admin.ModelAdmin):
         "category",
         "price",
         "image",
+    )
+
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        "pk",
+        "title",
     )
