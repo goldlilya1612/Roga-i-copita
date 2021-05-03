@@ -12,21 +12,23 @@ import './App.css';
 function App() {
 
   const [isFavourite, setIsFavourite] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
 
   const handleFavouriteClick = () => {
     if (isFavourite == false) {
       setIsFavourite(true);
     } else {
       setIsFavourite(false);
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
+      };
+    }
   const handleMenuClick = () => {
     if (isMenuOpen == false) {
       setIsMenuOpen(true)
     } else {
       setIsMenuOpen(false)
     }
-  }
+  };
 
   return (
     <div className="page">
@@ -54,4 +56,4 @@ function App() {
   );
 }
 
-export default App
+export default App 
