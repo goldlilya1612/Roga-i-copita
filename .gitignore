@@ -12,6 +12,7 @@ HaH/frontend/node_modules
 /build
 
 # misc
+.gitignore
 /venv
 .DS_Store
 .env.local
