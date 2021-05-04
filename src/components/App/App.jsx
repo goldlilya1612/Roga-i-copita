@@ -8,7 +8,9 @@ import ProductMenu from '../ProductMenu/ProductMenu';
 import Login from '../Login/Login';
 import Registration from '../Registration/Registration';
 import ProductPage from '../ProductPage/ProductPage';
+import Footer from '../Footer/Footer';
 import './App.css';
+
 
 
 function App() {
@@ -63,6 +65,7 @@ function App() {
       <Route path="/product-page">
         <ProductPage />
       </Route>
+      <Footer />
 
     
       {/*<div>Автор иконок: <a href="https://www.flaticon.com/ru/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/ru/" title="Flaticon">www.flaticon.com</a></div>
