@@ -1,7 +1,8 @@
 .header__icons_basket {
-    background-image: url('../../../../images/header__basket.svg');
+    background-image: url("../../../../images/basket_inactive.svg");
     grid-area: basket;
     margin: 24px auto 0 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
