@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import './Product.css';
-import help from '../../images/products/1.jpg'
 import favourite from '../../images/favourite.svg'
 
 class Product extends React.Component {
