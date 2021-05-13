@@ -73,6 +73,12 @@ function App() {
       <Route path="/basket-page">
         <BasketPage onClick={handleMakeOrderClick}/>
       </Route>
+      <Route path="/favorites">
+        <div className="product-favorites">
+            <ProductMenu onMenuClick={handleMenuClick} isMenuOpen={isMenuOpen}/>
+            <Product onCardClick={handleCardClick}/>  
+        </div>
+      </Route>
       <Footer />
 
       <Popup isOpen={isPopupOpen} onClose={closePopup}></Popup>
