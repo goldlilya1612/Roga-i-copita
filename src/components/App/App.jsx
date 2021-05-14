@@ -83,7 +83,7 @@ function App() {
       <Route path="/favorites">
         <div className="product-favorites">
             <ProductMenu onMenuClick={handleMenuClick} isMenuOpen={isMenuOpen}/>
-            <Product onClick={handleFavoriteClick} onCardClick={handleCardClick}/>  
+            <Product Favorite={isFavorite} onClick={handleFavoriteClick} onCardClick={handleCardClick}/>  
         </div>
       </Route>
       <Footer />
