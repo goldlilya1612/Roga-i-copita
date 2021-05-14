@@ -17,7 +17,7 @@ import './App.css';
 
 function App() {
 
-  const [isFavourite, setIsFavourite] = React.useState(false);
+  const [isFavorite, setIsFavorite] = React.useState(false);
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isPopupOpen, setIsPopupOpen] = React.useState(false);
 
@@ -29,13 +29,20 @@ function App() {
       )
   }
 
+  const handleFavoriteClick = () => {
+    if (isFavorite == false) {
+      setIsFavorite(true);
+    } else {
+      setIsFavorite(false);
+      };
+  }
   const handleMakeOrderClick = () => {
     if (isPopupOpen == false) {
       setIsPopupOpen(true);
     } else {
       setIsPopupOpen(false);
       };
-    }
+  };
   const handleMenuClick = () => {
     if (isMenuOpen == false) {
       setIsMenuOpen(true)
@@ -46,7 +53,7 @@ function App() {
 
   function closePopup() {
     setIsPopupOpen(false);
-}
+  }
 
   return (
     <div className="page">
@@ -55,7 +62,7 @@ function App() {
       <Route exact path="/">
         <div className="product-main">
           <ProductMenu onMenuClick={handleMenuClick} isMenuOpen={isMenuOpen}/>
-          <Product onCardClick={handleCardClick}/>  
+          <Product Favorite={isFavorite} onClick={handleFavoriteClick} onCardClick={handleCardClick}/>  
         </div>
       </Route> 
       <Route path="/aboutUs">
@@ -76,7 +83,7 @@ function App() {
       <Route path="/favorites">
         <div className="product-favorites">
             <ProductMenu onMenuClick={handleMenuClick} isMenuOpen={isMenuOpen}/>
-            <Product onCardClick={handleCardClick}/>  
+            <Product onClick={handleFavoriteClick} onCardClick={handleCardClick}/>  
         </div>
       </Route>
       <Footer />

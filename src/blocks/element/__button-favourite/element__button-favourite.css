@@ -1,4 +1,4 @@
-.element__button_favourite {
+.element__button-favourite {
     position: absolute;
     width: 45px;
     height: 42px;
@@ -9,11 +9,10 @@
     right: 0;
     transition: opacity ease 0.3s;
     cursor: pointer;
-    background-image: url("../../../../images/favourite.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.element__button_favourite:hover {
+.element__button-favourite:hover {
     opacity: 0.5;
 }
